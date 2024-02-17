@@ -9,6 +9,7 @@ public class Test3 {
 
         foo(listAnimal);
         foo(listDog);
+
     }
 
     public static void foo(List<? extends Animal> list) {
